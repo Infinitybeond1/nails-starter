@@ -1,1 +1,2 @@
 .env.filled
+app/db/secrets.nim

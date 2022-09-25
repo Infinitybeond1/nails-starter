@@ -1,6 +1,6 @@
 import norm/[postgres], os
 include models/[testModel]
-include secrets
+import secrets
 
 putEnv(dbHostEnv, dbHost)
 putEnv(dbUserEnv, dbUser)

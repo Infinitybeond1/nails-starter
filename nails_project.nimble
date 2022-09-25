@@ -13,7 +13,10 @@ bin           = @["index"]
 requires "nim >= 1.4.8", "norm", "jester", "nimja"
 
 task b, "Compile the css and the nimja templates into a single executable":
-    exec "sass app/styles/styles.scss public/styles.css; nimble build"
+    exec "sass app/styles/styles.scss public/styles.css; nimble build -d:nailsDb"
 
 task bs, "Build only the css styles (Useful if you only want to update the styles)":
     exec "sass app/styles/styles.scss public/styles.css"
+
+task bd, "Build without a database":
+    exec "sass app/styles/styles.scss public/styles.css; nimble build"
