@@ -1,6 +1,6 @@
 import nimja
 
-when defined(nailsDb):
+when not defined(noDb):
   include db/db
 
 proc renderIndex*(): string =
