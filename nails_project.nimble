@@ -16,8 +16,4 @@ task b, "Compile the css and the nimja templates into a single executable":
     exec "sass app/styles/styles.scss public/styles.css; nimble build"
 
 task bs, "Build only the css styles (Useful if you only want to update the styles)":
-<<<<<<< HEAD
-    exec "sass styles/styles.scss public/styles.css"
-=======
     exec "sass app/styles/styles.scss public/styles.css"
->>>>>>> 26fde5a (feat: update project layout)
