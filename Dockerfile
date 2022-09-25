@@ -10,5 +10,5 @@ ENV PORT=5000
 
 EXPOSE 5000
 
-CMD ["nimble", "b"]
+CMD ["nimble", "build", "-d:release", "--verbose"]
 
