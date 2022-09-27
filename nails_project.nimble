@@ -10,4 +10,4 @@ bin           = @["index"]
 
 # Dependencies
 
-requires "nim >= 1.4.8", "norm", "jester", "nimja", "sass"
+requires "nim >= 1.4.8", "jester", "nimja", "sass", "limdb"

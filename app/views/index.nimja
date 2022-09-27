@@ -4,6 +4,6 @@
 
 <body>
     <div>
-        Hello World
+        Foo: {{foo}}
     </div>
 </body>
